@@ -1,0 +1,9 @@
+.span {
+  color: red;
+  opacity: 0.4;
+  display: none;
+}
+
+input:invalid[focused="true"] ~ .span {
+  display: block;
+}

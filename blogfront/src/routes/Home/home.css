@@ -1,0 +1,7 @@
+.home-container {
+  display: flex;
+}
+
+.big-home-container {
+  background-color: var(--drk-black-1);
+}

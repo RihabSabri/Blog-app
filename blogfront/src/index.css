@@ -1,0 +1,41 @@
+/********************************* IMPORTS*************************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Share+Tech+Mono&family=Titillium+Web:wght@200&display=swap");
+
+/* **************************VARIABLES*****************************/
+:root {
+  --drk-black-1: #020202;
+  --drk-black-2: #0f0f0f;
+  --drk-black-3: #1f1e1e;
+  --prm-blue-1: rgb(23, 139, 145);
+  --prm-blue-2: rgb(71, 210, 215);
+  --prm-blue-3: rgb(5, 97, 99);
+  --prm-white-1: #fbfbfb;
+  --prm-white-2: #e9e7e7;
+  --prm-grey-1: #c4c4c4;
+  --spacing: 0.2rem;
+  --transition: all 0.3s ease;
+}
+
+/******************************** GLOBALS*********************************/
+a {
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: "Share Tech Mono", "Dongle", sans-serif, monospace,
+    "Titillium Web";
+  height: 100%;
+}
